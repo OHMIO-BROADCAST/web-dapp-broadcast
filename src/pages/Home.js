@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { Logo } from "../images/Netflix";
+import LogoOfficial from '../images/image.png';
 import {
   ConnectButton,
   Icon,
@@ -69,7 +70,7 @@ const Home = () => {
   return (
     <>
       <div className="logo">
-        <img src="../images/Image.png" alt="logo" />
+        <img src={LogoOfficial} alt="logo" style={{height:'40px'}} />
       </div>
       <div className="connect">
         <Icon fill="#ffffff" size={24} svg="bell" />
