@@ -69,7 +69,7 @@ const Home = () => {
   return (
     <>
       <div className="logo">
-        <img src="../images/image.png" />
+        <img src="../images/Image.png" alt="logo" />
       </div>
       <div className="connect">
         <Icon fill="#ffffff" size={24} svg="bell" />
