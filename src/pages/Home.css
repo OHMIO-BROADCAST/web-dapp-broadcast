@@ -107,12 +107,14 @@
 
 .modal {
   max-height: 200px !important;
+  background-color: black;
 }
 
 .modalContent {
   position: relative;
   top: -70px;
   width: 100%;
+  background-color: black;
 }
 
 .modalImg {
